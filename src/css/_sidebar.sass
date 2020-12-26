@@ -1,2 +1,58 @@
 .sidebar
 	background: $dark--bg
+	&__header
+		padding: 37px 32px 60px 32px
+		box-sizing: border-box
+		color: $text--gray
+		display: flex
+		align-items: center
+		h2
+			margin: 0
+		&--logo
+			display: flex
+			align-items: center
+			justify-content: center
+			width: 32px
+			height: 32px
+			background: $color--blue
+			min-width: 32px
+			margin-right: 10px
+			border-radius: 50%
+			img
+				width: 50%
+
+.menu__link
+	border: none
+	width: 100%
+	padding: 20px 29px
+	text-align: left
+	display: flex
+	align-items: center
+	background: transparent
+	color: $text--gray
+	cursor: pointer
+	border-left: 2px solid transparent
+	transition: 0.3s
+	&:focus
+		outline: 0
+	&--active, &:hover
+		background: $btn--hover
+		border-left-color: $color--active
+		color: $color--active
+		svg
+			path
+				fill: $color--active
+	svg
+		width: 15px
+		height: 15px
+		margin-right: 10px
+		path
+			fill: $text--gray
+
+
+
+
+
+
+
+
