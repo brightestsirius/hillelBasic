@@ -1,3 +1,14 @@
+body {
+  margin: 0; }
 
+.dashboard {
+  display: grid;
+  grid-template-columns: 3fr 9fr; }
+
+.sidebar {
+  background: #363740; }
+
+.overview {
+  background: #F7F8FC; }
 
 /*# sourceMappingURL=style.css.map */

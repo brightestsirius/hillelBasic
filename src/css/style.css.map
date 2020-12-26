@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAGA,IAAI;EACH,MAAM,EAAE,CAAC;;AAEV,UAAU;EACT,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;;ACR/B,QAAQ;EACP,UAAU,EDDA,OAAO;;AEAlB,SAAS;EACP,UAAU,EFAA,OAAO",
+"sources": ["_variables.sass","_sidebar.sass","_overview.sass"],
 "names": [],
 "file": "style.css"
 }
